@@ -75,6 +75,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DemoPage1.html" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="Scripts\CustomJS.js" />
+    <Content Include="Styles\CustomStyles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

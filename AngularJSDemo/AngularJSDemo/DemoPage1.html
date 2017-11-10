@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Angular JS</title>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/CustomJS.js"></script>
+    <link href="Styles/CustomStyles.css" rel="stylesheet" />
+</head>
+<body ng-app>
+    <!--ng-app is a directive-->
+    <div>
+        10 + 20 = {{ 10 + 20 }}<!--{{}} are called binding expression in angular app-->
+    </div>
+    <div>
+        Is 1 == 2 ? {{ 1==2 }}
+    </div>
+    <div>
+        Is 1 == 1 ? {{ 1==1 }}
+    </div>
+    <div>
+        {{ {name: 'Bharath', Age:'33'}.name }}
+    </div>
+    <div>
+        {{ ['Bharath','Kaustubh','Raji'][1] }}
+    </div>
+</body>
+</html>
